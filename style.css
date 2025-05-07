@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e3f4fc;
+}
+.box {
+ height: 32rem;
+ position: relative;
+ width: 56rem;
+ border-radius: 20px;
+ background-color: #ffffff;
+}
+.box2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 28rem;
+    background-color: #133040;
+}
+.box .heading {
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+}
+.box .para1 {
+    position: absolute;
+    left: 22rem;
+    color: rgba(0, 0, 0, 0.6);
+    top: 2.50rem;
+    text-decoration: underline;
+}
+.box .pa {
+    position: absolute;
+    top: 5.50rem;
+    left: 2rem;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.box .input {
+    height: 2.50rem;
+    width: 24rem;
+    border-radius: 8px;
+    top: 8rem;
+    left: 2rem;
+    position: absolute;
+    font-size: 18px;
+    outline: none;
+    border: rgba(0, 0, 0, 0.6) 1px solid;
+    padding-left: 30px;
+}
+.box .input2 {
+    height: 2.50rem;
+    width: 11.50rem;
+    border-radius: 8px;
+    top: 14rem;
+    left: 2rem;
+    position: absolute;
+    font-size: 18px;
+    outline: none;
+    border: rgba(0, 0, 0, 0.6) 1px solid;
+    padding-left: 30px;
+}
+.box .input3 {
+    height: 2.50rem;
+    width: 11.50rem;
+    border-radius: 8px;
+    top: 14rem;
+    left: 14.50rem;
+    position: absolute;
+    font-size: 18px;
+    outline: none;
+    border: rgba(0, 0, 0, 0.6) 1px solid;
+    padding-left: 30px;
+}
+.box .para3 {
+    position: absolute;
+    top: 12rem;
+    left: 2rem;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.box .para4 {
+    position: absolute;
+    top: 12rem;
+    left: 14.50rem;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.box .para5 {
+    position: absolute;
+    top: 18rem;
+    left: 2rem;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.box .div1 {
+    height: 2.50rem;
+    width: 24rem;
+    border-radius: 8px;
+    top: 20rem;
+    padding-top: 5px;
+    left: 2rem;
+    position: absolute;
+    font-size: 18px;
+    outline: none;
+    border: rgba(0, 0, 0, 0.6) 1px solid;
+    padding-left: 30px;
+}
+.box .div2 {
+    height: 2.50rem;
+    width: 24rem;
+    border-radius: 8px;
+    padding-top: 5px;
+    top: 23rem;
+    left: 2rem;
+    position: absolute;
+    font-size: 18px;
+    outline: none;
+    border: rgba(0, 0, 0, 0.6) 1px solid;
+    padding-left: 30px;
+}
+.box .btn {
+    position: absolute;
+    bottom: 2rem;
+
+    left: 2rem;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    width: 18rem;
+    height: 3rem;
+    padding-bottom: 2px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #d9db2f;
+}
+.box .btn .img2 {
+    position: absolute;
+    top: 10px;
+    left: 28px;
+}
+.box2 .emp {
+    position:absolute;
+    top: 8rem;
+    left: 8.50rem;
+}
+.box2 .heading2 {
+    position: absolute;
+    top: 20rem;
+    left: 7rem;
+    color: white;
+}
+.box2 .para10 {
+    position: absolute;
+    top: 23rem;
+    font-size: 15px;
+    text-align: center;
+    left: 2rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+.box2 .head5 {
+    color: white;
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+    display: none;
+}
+.box2 .head6 {
+    position: absolute;
+    left: 2rem;
+    display: none;
+    top: 4.50rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-size:15px ;
+}
+.box2 .div10 {
+    position: absolute;
+    width: 24rem;
+    display: none;
+    height: 16rem;
+    top: 10.50rem;
+    border-radius: 10px;
+    background-color: #0e2431;
+    left: 2rem;
+}
+.box2 .div10 .mon {
+    position: absolute;
+    left: 1.50rem;
+    top: 1.50rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+.box2 .div10 .head11 {
+    top: 3rem;
+    left: 2.50rem;
+    position: absolute;
+    color: #d9e346;
+    font-size: 48px;
+}
+.box2 .div10 .hori {
+    position: absolute;
+    top: 9rem;
+    left: 1rem;
+    width: 90%;
+    color: rgba(255, 255, 255, 0.3);
+    height:.50px;
+}
+.box2 .div10 .p2 { position: absolute;
+    left: 1.50rem;
+    top: 11rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+.box2 .div10 .p3 {
+    color: white;
+    position: absolute;
+    top: 12.50rem;
+    left: 2.50rem;
+}

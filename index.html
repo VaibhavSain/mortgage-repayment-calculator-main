@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <title>Mortgage repayment calculator</title>
+</head>
+<body>
+  <main>
+    <div class="box">
+      <h2 class="heading">Mortgage Calculator</h2>
+      <p class="para1" id="clear">  Clear All
+      </p>
+      <p class="pa">Mortgage Amount</p>
+      <p></p>
+      <input type="text" class="input" id="amount">
+      <input type="text" class="input2" id="term">
+      <input type="text" class="input3" id="rate">
+      <p class="para3">  Mortgage Term
+      </p>
+      <p class="para4">  Interest Rate
+      </p>
+      <p class="para5">  Mortgage Type
+      </p>
+      <form action="">
+      <div class="div1">
+        <label for="imp1">
+          <input type="radio" name="mode" id="imp1">
+          Repayment
+        </label>
+      </div>
+      <div class="div2">
+        <label for="imp2">
+        <input type="radio" id="imp2" name="mode" >   Interest Only
+        </label>
+      </div>
+    </form>
+      <button class="btn" id="btn"><img class="img2" src="icon-calculator.svg" alt="calculator"> Calculate Repayments</button>
+      
+      <div class="box2">
+        <h2 class="heading2" id="head">  Results shown here
+        </h2>
+        <p class="para10" id="para"> Complete the form and click “calculate repayments” to <br> see what 
+          your monthly repayments would be.</p>
+        <img src="illustration-empty.svg" id="img123" alt="empty" class="emp">
+        <h2 class="head5">Your results</h2>
+        <p class="head6">Your results are shown below based on the information <br> you provided. 
+          To adjust the results, edit the form and <br> click “calculate repayments” again.
+        </p>
+        <div class="div10">
+        <p class="mon">Your monthly repayments</p>
+        <h1 class="head11">1,797.74</h1>
+        <hr class="hori">
+        <p class="p2">Total you'll repay over the term</p>
+        <h2 class="p3">539,322.94</h2>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+
+</body>
+<script src="scipt.js"></script>
+</html>
